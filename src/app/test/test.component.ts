@@ -12,3 +12,7 @@ export function greet(name) {
   return 'Welcome ' + name;
 
 }
+export class TestComponent {
+  constructor() {
+  }
+}
