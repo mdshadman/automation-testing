@@ -6,6 +6,7 @@ import { TestComponent } from './test/test.component';
 import { VoteComponent } from './vote/vote.component';
 import { ListComponent } from './list/list.component';
 import { FormComponent } from './form/form.component';
+import { EventemitterComponent } from './eventemitter/eventemitter.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -13,6 +14,7 @@ import { FormComponent } from './form/form.component';
     VoteComponent,
     ListComponent,
     FormComponent,
+    EventemitterComponent,
   ],
   imports: [
     BrowserModule
